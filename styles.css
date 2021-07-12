@@ -1,0 +1,30 @@
+.container-fluid {
+  background-color: #80A682;
+  height: 130vh;
+  border-bottom-right-radius: 20px;
+}
+.portfolio-container {
+  background-color: #415D43 ;
+  height: 125vh;
+  border-bottom-right-radius: 20px;
+}
+.about-container {
+  background-color: #1E381F ;
+  height: 120vh;
+  border-bottom-right-radius: 20px;
+}
+.main-container {
+  background-color: #010F01 ;
+  height: 115vh;
+  border-bottom-right-radius: 20px;
+}
+.socialmedia-page > p {
+  right: 10px;
+}
+.portfolio-container > p {
+  right: 150px;
+}
+.about-container > p {
+  right: 270px;
+}
+
