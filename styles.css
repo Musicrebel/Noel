@@ -1,16 +1,17 @@
 .container-fluid {
   background-color: #80A682;
-  height: 130vh;
+  height: auto;
   border-bottom-right-radius: 20px;
 }
 .portfolio-container {
   background-color: #415D43 ;
-  height: 125vh;
+  height: auto;
+  padding-bottom: 30px;
   border-bottom-right-radius: 20px;
 }
 .about-container {
   background-color: #1E381F ;
-  height: 120vh;
+  height: auto;
   border-bottom-right-radius: 20px;
 }
 .main-container {
