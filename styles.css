@@ -32,9 +32,37 @@
   padding: 30px;
   margin: 0 auto;
 }
+.about-page {
+  background-color: #415D43;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: auto;
+  position: relative;
+  padding: 30px 30px 30px 100px;
+  margin: 0 auto;
+  left: -50px;
+}
+.skills-page {
+  background-color: #80A682;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: auto;
+  padding: 30px 30px 30px 100px;
+  margin: 0 auto;
+  left: -100px;
+}
 .social-media-links a img{
   color: #1E381F;
 }
+.scrollableRow {
+  overflow-y: auto;
+}
+.scrollableRow::-webkit-scrollbar { width: 0 !important }
+
+.scrollableRow { overflow: -moz-scrollbars-none; }
+
+.scrollableRow { -ms-overflow-style: none; }
+
 @media (max-width:1000px) {
   #emailadd {
     font-size: small;
