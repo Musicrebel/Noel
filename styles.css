@@ -1,23 +1,23 @@
 .socialmedia-container {
-  background-color: #80A682;
+  background-color: #C1DBB3;
   height: auto;
   border-bottom-right-radius: 20px;
 }
 .portfolio-container {
-  background-color: #415D43 ;
+  background-color: #FAEDCA;
   height: auto;
   padding-bottom: 30px;
   border-bottom-right-radius: 20px;
   box-shadow: 5px 10px 10px hsla(0, 0%, 8%, 0.315);
 }
 .about-container {
-  background-color: #1E381F ;
+  background-color: #FE5D26 ;
   height: auto;
   border-bottom-right-radius: 20px;
   box-shadow: 5px 10px 10px hsla(0, 0%, 8%, 0.315);
 }
 .main-container {
-  background-color: #010F01 ;
+  background-color: #F2C078 ;
   height: 115vh;
   border-bottom-right-radius: 20px;
   box-shadow: 5px 10px 10px hsla(0, 0%, 8%, 0.315);
