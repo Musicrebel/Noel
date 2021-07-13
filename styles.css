@@ -8,18 +8,50 @@
   height: auto;
   padding-bottom: 30px;
   border-bottom-right-radius: 20px;
+  box-shadow: 5px 10px 10px hsla(0, 0%, 8%, 0.315);
 }
 .about-container {
   background-color: #1E381F ;
   height: auto;
   border-bottom-right-radius: 20px;
+  box-shadow: 5px 10px 10px hsla(0, 0%, 8%, 0.315);
 }
 .main-container {
   background-color: #010F01 ;
   height: 115vh;
   border-bottom-right-radius: 20px;
+  box-shadow: 5px 10px 10px hsla(0, 0%, 8%, 0.315);
 }
 .main-content {
-  padding-top: 400px;
+  padding-top: 80vh;
 }
-
+.social-page {
+  background-color: azure;
+  border-radius: 20px;
+  height: 200px;
+  padding: 30px;
+  margin: 0 auto;
+}
+.social-media-links a img{
+  color: #1E381F;
+}
+@media (max-width:1000px) {
+  #emailadd {
+    font-size: small;
+  }
+}
+@media (max-width:900px) {
+  #emailadd {
+    font-size: x-small;
+  }
+}
+@media (max-width:863px) {
+  .phone-font {
+    font-size: small;
+  }
+}
+@media (max-width:900px) {
+  .phone-fot {
+    font-size: small;
+  }
+}

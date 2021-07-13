@@ -3,21 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./styles.css">
+    <style>
+      body {
+        font-family: "Source Code Pro";
+      }
+    </style>
     <title>Noel Portfolio</title>
   </head>
   <body>    
   <div class="container-fluid">
     <div class="row">
       <div class="socialmedia-container position-absolute p-0 col-12">
-        <p class="float-right px-3 text-light">Social Media</p>
+        <p class="float-right px-3 text-light"><a href="#social-media">Social Media</a></p>
         <div class="row">
           <div class="portfolio-container w-100 p-0 col-12">
-            <p class="float-right text-light px-2">Portfolio</p>
+            <p class="float-right text-light px-2"><a href="#portfolio">Portfolio</a></p>
             <div class="row">
                 <div class="about-container p-0 col-12">
-                  <p class="float-right text-light px-2">About Me</p>
+                  <p class="float-right text-light px-2"><a href="#about-me">About Me</a></p>
                   <div class="row">
                     <div class="main-container col-12">
                       <p class="text-right text-light"></p>
@@ -35,14 +43,14 @@
                     </div>
                   </div>
 <!------About Me------->
-                  <div class="about-page col-12 p-5">
+                  <div class="about-page col-12 p-5" id="about-me">
                     <h1>I'm Noel</h1>
                     <h4>I'm from Brooklyn, NY</h4>
                   </div>
                 </div>
             </div>          
 <!----Portfolio---->
-          <div class="portfolio-page col-12 p-5 d-flex flex-wrap no-gutters">
+          <div class="portfolio-page col-12 p-5 d-flex flex-wrap no-gutters" id="portfolio">
             <div class="row">
               <div class="d-block col-12 col-md-6">
                 <div class="row pb-3">
@@ -108,10 +116,36 @@
           </div>
         </div>
 <!----Social Media------>
-      <div class="social-media-links">
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <a href="#">LinkedIn</a>
+      <div class=" d-flex col-12 p-5 flex-wrap">
+        <div class="row social-page">
+            <div class="m-1 m-auto social-media-links"><img style="width: 40px;" src="./images/user-svgrepo-com.svg"></div>
+            <div class="d-block col-12 text-center">
+              <h4><b>Social</b></h4>
+            </div>
+            <div class="d-flex m-auto">
+              <div class="m-1 social-media-links"><a type="button" class="m-1 btn btn-light rounded-circle" href="#"><img style="width: 40px;" src="./images/logo-facebook-svgrepo-com.svg"></a></div>
+              <div class="m-1 social-media-links"><a type="button" class="m-1 btn btn-light rounded" href="#"><img style="width: 40px;" src="./images/instagram-logo-svgrepo-com.svg"></a></div>
+              <div class="m-1 social-media-links"><a type="button" class="m-1 btn btn-light rounded" href="#"><img style="width: 40px;" src="./images/linkedin-svgrepo-com.svg"></a></div>
+            </div>  
+        </div>
+      </div>
+      <div class=" col-12 col-md-6 p-5">
+        <div class="row social-page">
+          <div class="m-1 m-auto"><img style="width: 40px;" src="./images/email-svgrepo-com.svg"></div>
+          <div class="d-block col-12 text-center">
+            <h4><b>Email</b></h4>
+            <p id="emailadd">steven.noelnyc@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 p-5">
+        <div class="row social-page" id="social-media">
+          <div class="m-1 m-auto social-media-links"><img style="width: 40px;" src="./images/phone-svgrepo-com.svg"></div>
+          <div class="d-block col-12 text-center">
+            <h4 class="phone-font"><b>Phone Number</b></h4>
+            <p class="phone-font">+1 (347)382-1551</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
