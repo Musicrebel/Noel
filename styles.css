@@ -19,5 +19,7 @@
   height: 115vh;
   border-bottom-right-radius: 20px;
 }
-
+.main-content {
+  padding-top: 400px;
+}
 
